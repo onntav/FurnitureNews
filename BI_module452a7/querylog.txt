@@ -1,0 +1,16 @@
+SELECT 
+			    DATE_FORMAT(pv.VisitDateTime, "%m/%d/%Y") AS VisitDateTime, 
+			    cv.IpAddress,
+                pv.PageNumber, 				
+				COUNT(pv.PageNumber) AS VisitCount,
+				cv.Domain
+			 FROM 
+				catalogvisit cv
+             LEFT JOIN pagevisit pv on cv.Id = pv.CatVisitId  WHERE cv.IpAddress LIKE '%1%' OR pv.PageNumber LIKE '%1%'  GROUP BY 
+				cv.IpAddress, 
+				pv.PageNumber, 
+				VisitDateTime
+			 ORDER BY  VisitDateTime DESC,
+			        PageNumber ASC, 
+			        VisitCount DESC  
+			 LIMIT 24,10

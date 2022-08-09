@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config>
+	<pagetitle lang="en">Marketing BI Management System</pagetitle> 
+	<catalogues>
+		<catalogue>
+			<name lang="en">Catalogue1</name>
+			<image>images/eMag1.png</image>
+			<link>http://www.mspd.space/FurnitureNews</link>
+			<bilink>http://www.mspd.space/FurnitureNews/BI_module452a7/</bilink>
+			<logo>images/catalogue1.png</logo>
+			<db_name>furniturenews</db_name>
+	  </catalogue>
+	  <catalogue>
+		<name lang="en">Catalogue2</name>
+		<image>images/eMag2.png</image>
+		<link>http://www.mspd.space/FurnitureNews</link>
+		<bilink>http://www.mspd.space/FurnitureNews/BI_module452a7/</bilink>
+		<logo>images/catalogue1.png</logo>
+		<db_name>furniturenews</db_name>
+	  </catalogue>
+	  <catalogue>
+		<name lang="en">Brochure1</name>
+		<image>images/eCat1.png</image>
+		<link>http://www.mspd.space/TenteCatalogue</link>
+		<bilink>http://www.mspd.space/TenteCatalogue/BI_module452a7/</bilink>
+		<logo>images/catalogue2.png</logo>
+		<db_name>tentecatalogue</db_name>
+	  </catalogue>
+	 <catalogue>
+		<name lang="en">Brochure2</name>
+		<image>images/eCat2.png</image>
+		<link>http://www.mspd.space/TenteCatalogue</link>
+		<bilink>http://www.mspd.space/TenteCatalogue/BI_module452a7/</bilink>
+		<logo>images/catalogue2.png</logo>
+		<db_name>tentecatalogue</db_name>
+	  </catalogue>
+	   <catalogue>
+		<name lang="en">Brochure3</name>
+		<image>images/eCat1.png</image>
+		<link>http://www.mspd.space/TenteCatalogue</link>
+		<bilink>http://www.mspd.space/TenteCatalogue/BI_module452a7/</bilink>
+		<logo>images/catalogue2.png</logo>
+		<db_name>tentecatalogue</db_name>
+	  </catalogue>
+	  <catalogue>
+		<name lang="en">Brochure4</name>
+		<image>images/eCat2.png</image>
+		<link>http://www.mspd.space/TenteCatalogue</link>
+		<bilink>http://www.mspd.space/TenteCatalogue/BI_module452a7/</bilink>
+		<logo>images/catalogue2.png</logo>
+		<db_name>tentecatalogue</db_name>
+	  </catalogue>
+	</catalogues>
+</config>

@@ -1,0 +1,42 @@
+<html>
+<head>
+<style>
+#thediv {
+    margin:0 auto;
+	height:400px;
+	width:400px;
+	overflow:hidden;
+	}
+
+img {
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+
+</style>
+</head>
+<body>
+<input type="button" value ="-" onclick="zoom(0.9)"/>
+<input type="button" value ="+" onclick="zoom(1.1)"/>
+<div id="thediv">
+
+<img id="pic" src="http://upload.wikimedia.org/wikipedia/commons/d/de/Nokota_Horses_cropped.jpg"/>
+</div>
+<script>
+window.onload = function(){zoom(1)}
+
+
+function zoom(zm) {
+img=document.getElementById("pic")
+wid=img.width
+ht=img.height
+img.style.width=(wid*zm)+"px"
+img.style.height=(ht*zm)+"px"
+    img.style.marginLeft = -(img.width/2) + "px";
+    img.style.marginTop = -(img.height/2) + "px";
+}
+
+</script>
+</body>
+</html>
